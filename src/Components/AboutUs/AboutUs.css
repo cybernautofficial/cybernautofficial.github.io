@@ -1,0 +1,225 @@
+.about-us-box{
+    border:solid 4px #CBF1F5;
+    border-radius: 25px;
+    font-family: Montserrat;
+}
+
+.horiLine{
+    display: inline-block;
+    height: 4px;
+    width: 48px;
+    margin-bottom: 4px;
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 11px
+}
+@keyframes animateLine{
+    0%{
+        transition: ease-in-out;
+    }
+    25%{
+        transition: ease-out;
+    }
+    50%{
+        transition: ease-in;
+    }
+    75%{
+        transition: ease-out;
+    }
+    100%{
+        transition: ease-in;
+    }
+}
+
+
+.about-us-box p{
+    font-size: 1em;
+}
+.about-us{
+    display: inline-block;
+}
+.who-we-are{
+    font-weight: 770;
+    color: cyan;
+}
+.highlight{
+    font-weight: 600;
+    color: cyan;
+}
+.vission{
+    background-color: #CBF1F5;
+    border-radius: 20px;
+    
+}
+.mission{
+    border-radius: 20px;
+    background-color: #CBF1F5;
+    height: 100%;
+}.vis-and-mis{
+    font-family: Montserrat;
+}
+#vis-heading{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 2vh;
+    color: white;
+    text-shadow: 2px 0px 3px black;
+}
+#mis-heading{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 2vh;
+    color: white;
+    text-shadow: 2px 0px 3px black;
+}
+#mis-heading-2{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 0px 3px black;
+}
+.keypoints{
+    font-weight: 700;
+    margin-bottom: 1vh;
+}
+.read-more{
+    background: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 35px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.read-more-div{
+    margin-top: 30px;
+}
+.persons-heading{
+   font-size: 1.3rem;
+   font-weight: 700;
+   font-family: Montserrat;
+}
+.persons-content{
+    background: #CBF1F5;
+    /* padding: 30px; */
+    border-radius: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: Montserrat;
+}
+.each-down{
+    background: white;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.each-image{
+    height: 27.5vw;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+
+}
+.eachImage{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.persons-name{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.persons-post{
+    font-size:0.9rem;
+}
+.each-person{
+    width: 84%;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+}
+.mission-content p span{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.mission-content{
+    height: 86%;
+    overflow-y: scroll;
+    text-align: justify;
+}
+.mission-content::-webkit-scrollbar{
+    width: 8px;
+}
+.mission-content::-webkit-scrollbar-track{
+    background: #CBF1F5;
+    border-radius: 10px;
+}
+.mission-content::-webkit-scrollbar-thumb{
+    background: #CBF1F5;
+    border-radius: 10px;
+}
+.closebtn{
+    float: right;
+    margin-right: 1%;
+    cursor: pointer;
+}
+.modal-class{
+    font-family: Montserrat;
+}
+.social-link-image{
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    cursor: pointer;
+}
+.social-links{
+    position: absolute;
+    bottom: 10px;
+    left: 24%;
+    opacity: 0;
+    transition: .4s ease-out;
+}
+.each-social-link{
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px 1px powderblue;
+}
+.each-image:hover .social-links{
+    opacity: 1;
+    transition: .4s ease-in-out ;
+}
+@media screen and (max-width:1040px){
+    .persons-name{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .each-image{
+        height: auto;
+    }
+    
+}
+@media screen and (max-width:580px) {
+    .about-us-box{
+        margin-left: 3px !important;
+        margin-right: 3px !important;
+    }
+    .vis-and-mis{
+        margin-left: 3px !important;
+        margin-right: 3px !important;
+    }
+    .persons-content{
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    .persons-heading{
+        margin-left: 3px !important;
+        text-align: center;
+        margin-right: 3px !important;
+    }
+}

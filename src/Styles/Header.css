@@ -1,0 +1,210 @@
+.logoWriting{
+    position: absolute;
+    width: 180px;
+    height: 56px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transform: translate(0%, 3%);
+}
+.NavBar{
+    position: sticky;
+    font-family: Montserrat;
+    display: flex;
+    height: 65px;
+    font-size: 30px;
+    top:0px;
+    z-index: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: white;
+}
+.NavIcon{
+    display: none;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 18px;
+    list-style: none;
+    position: absolute;
+    left: 211px;
+    top: 10px;
+    font-size: 22px;
+    background: #CBF1F5;
+    font-weight: 700;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+}
+.navLinks{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navLinks:hover{
+    text-decoration: underline;
+    color: rgb(92, 83, 83);
+    text-decoration: none;
+}
+
+.signInButton{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    /* border: solid 2px #CBF1F5; */
+    padding-left: 20px;
+    background: #CBF1F5;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    border-radius: 20px;
+    cursor: pointer
+}
+.search{
+    position: absolute;
+    right: 41px;
+    top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border: solid 2px #CBF1F5;
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 72px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.underLine{
+    display: inline-block;
+    height: 3px;
+    width: 100%;
+    margin-bottom: 4px;
+    background-color: #8393a9;
+    border-radius: 11px;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    bottom: -3px;
+}
+.underLine{
+    animation-name: expand;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-style: preserve-3d;
+    transition: ease-in;
+}
+.show{
+    visibility:visible;
+}
+  
+@keyframes expand {
+    0% {
+      transform: scaleX(0);
+    }
+    100%{ transform: scaleX(1);
+    }
+  }
+@media screen and (max-width:732px) {
+    .NavBar{
+        position: sticky;
+        top: 0px;
+        margin-left: 3px !important;
+        margin-right: 0px !important;
+    }
+    .search{
+        position: absolute;
+    right: 144px;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    border: solid 2px #CBF1F5;
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 57px;
+    border-radius: 20px;
+    cursor: pointer;
+    }
+    .signInButton{
+        position: absolute;
+    right: 62px;
+    top: 15px;
+    font-size: 19px;
+    font-weight: 700;
+    border: solid 0px #CBF1F5; 
+    padding-left: 33px;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    padding-right: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    }
+    .signInButton:hover{
+        background-color: #CBF1F5;
+        color: black;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top:80px;
+        left: -150%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    .nav-menu.active{
+        background-color: #f8f9fa;
+        left: 0;
+        top: 65px;
+        opacity: 1;
+        transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        z-index: 1;
+    }
+    .navLinks{
+        text-align: center;
+        padding: 1px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: table;
+        color: black;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .navLinks:hover{
+        background-color: rgb(206, 187, 223);
+        border-radius:0px;
+    }
+    .logoWriting{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .NavIcon{
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        transform: translate(-35%, 31%);
+        font-size: 21px;
+        cursor: pointer;
+        border: solid 3px black;
+        border-radius: 7px;
+        padding: 8px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 4px;
+    }  
+    .show{
+        visibility: hidden;
+    }
+}
