@@ -26,14 +26,14 @@ class Home extends Component{
 		                </video>
                      </label>
 		             <label for="s2" id="slide2"><img src={require('../images/suryaPoster2.jpeg').default}/></label>
-		             <label for="s3" id="slide3"><img src={require('../images/cybernautPoster.jpeg').default}/></label>
-		             <label for="s4" id="slide4"><img src={require('../images/drinks.png').default}/></label>
-		             <label for="s5" id="slide5"><img src={require('../images/suryaPoster2.jpeg').default}/>{/*<video  src={require("../images/video/video2.mp4").default} loop autoPlay muted width="100%" height="100%">
+		             <label for="s3" id="slide3"><img src={require('../images/manishPoster.jpeg').default}/></label>
+		             <label for="s4" id="slide4"><img src={require('../images/keerthanaPoster.jpeg').default}/></label>
+		             <label for="s5" id="slide5"><img src={require('../images/cybernautPoster.jpeg').default}/>{/*<video  src={require("../images/video/video2.mp4").default} loop autoPlay muted width="100%" height="100%">
 		                </video>*/}</label>
 	            </section>
                <div className="joinCommunity mx-5 mb-4 mt-3">
                     <div className="row">
-                        <div className="col-lg-7 col-md-7 col-12" style={{'paddingLeft':'20px'}}>
+                        <div className="col-lg-7 col-md-7 col-12 jC" style={{'paddingLeft':'20px'}}>
                         <span className="jCques">Want to help people but don't know where to start ?</span><br/>
                         That's where we come in, we are a group of youngsters
                         who help students to pursue their jobs and skills
@@ -43,6 +43,7 @@ class Home extends Component{
                        </div>
                     </div>
                 </div>
+                {/*
                 <h6 className="recent mx-5">RECENT</h6><span className="horiLine"></span>
                 <h6 className="announcements mx-5">ANNOUNCEMENTS</h6>
                 <div className="scroll mx-5 mb-3">
@@ -75,6 +76,7 @@ class Home extends Component{
                        </div>
                    </div>
                 </div>
+                        */}
                 <Workshops/>
                 <Footer/>
             </div>

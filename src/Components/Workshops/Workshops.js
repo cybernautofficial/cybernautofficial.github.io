@@ -23,13 +23,11 @@ function Workshops(){
             {
                 workshops.map((item)=>{
                     return(
-                        <div className="each-logo mx-4" 
+                        <div className="each-logo mx-4 px-3" 
                         onClick={()=>{
                             setContent(item.content);
                             setName(item.name);
                             setPosterBackground(item.posterBackground);
-                            setPosterElement(item.posterElement);
-                            setPosterText(item.posterImage);
                         }}><img className="image-logo" src={item.image}/>
                             <span className="each-name">{item.name}</span>
                         </div>
@@ -46,9 +44,7 @@ function Workshops(){
                        </div>
                         <div className="col-lg-5 col-md-5 col-12 mt-3 poster">
                             <div id="img-area" className="img-Area" >
-                                <img className="image" src={posterText}/>
                                 <img className="image1" src={posterBackground}/>
-                                <img className="image" src={posterElement}/>
                             </div>
                         </div>
             </div>

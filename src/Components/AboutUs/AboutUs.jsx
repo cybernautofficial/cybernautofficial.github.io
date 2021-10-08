@@ -86,7 +86,7 @@ function AboutUs(){
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 mt-4"><div className="mission  px-4 py-3"><div id="mis-heading">Mission</div>
                         <p>Through Cybernaut, you can learn technical skills like programming languages and advanced courses as well as non-technical ones like communication, personal development, and soft skills which helps shape yourself into a better person. Along with these skills, you can gain experience too. You can also be a part of social activities going to be done by us like tree planting, feeding the hungry and others.</p>
-                        <div className="read-more-div"><span className="read-more" 
+                        <div className="read-more-div"><span className={"read-more" + (MissionOpen ? " bor" : "")}
                         onClick={()=>handleMissionOpen()}>READ MORE</span></div>
                         </div>
                     </div>

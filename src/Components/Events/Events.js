@@ -9,7 +9,7 @@ function Event(){
       <h6 className="mx-2 mx-lg-5 mx-md-5 mt-3 ongoing">ONGOING</h6><span className="horiLine"></span>
       <h6 className="mx-2 mx-lg-5 mx-md-5 events">EVENTS</h6>
       <div className="heading">
-            <span className="webinars">WEBINARS</span>
+            <span className="webinars">ONGOING WEBINARS</span>
       </div>
       <div className="row mx-lg-5 mx-1 mx-md-5 mb-5" style={{'fontFamily':'Montserrat'}}>
           {

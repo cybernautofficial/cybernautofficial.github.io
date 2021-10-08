@@ -40,7 +40,7 @@
 }
 .who-we-are{
     font-weight: 770;
-    color: cyan;
+    color:darkblue;
 }
 .highlight{
     font-weight: 600;
@@ -62,15 +62,13 @@
     font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 2vh;
-    color: white;
-    text-shadow: 2px 0px 3px black;
+    text-shadow: 2px 0px 3px white;
 }
 #mis-heading{
     font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 2vh;
-    color: white;
-    text-shadow: 2px 0px 3px black;
+    text-shadow: 2px 0px 3px white;
 }
 #mis-heading-2{
     font-size: 1.5em;
@@ -92,6 +90,7 @@
     border-radius: 35px;
     font-weight: 700;
     cursor: pointer;
+    border: 2px solid #00000063;   
 }
 .read-more-div{
     margin-top: 30px;
@@ -119,11 +118,9 @@
 }
 .each-image{
     height: 27.5vw;
-    background-color: black;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     position: relative;
-
 }
 .eachImage{
     border-top-left-radius: 20px;
@@ -171,15 +168,15 @@
     font-family: Montserrat;
 }
 .social-link-image{
-    height: 30px;
-    width: 30px;
+    height: auto;
+    width: 2vw;
     padding: 2px;
     cursor: pointer;
 }
 .social-links{
     position: absolute;
     bottom: 10px;
-    left: 24%;
+    left: 22%;
     opacity: 0;
     transition: .4s ease-out;
 }
@@ -187,7 +184,10 @@
     background-color: white;
     border-radius: 5px;
     display: inline-block;
-    box-shadow: 2px 2px 5px 1px powderblue;
+    /*box-shadow: 2px 2px 5px 1px powderblue;*/
+}
+.bor{
+    border: 2px solid #00000063;   
 }
 .each-image:hover .social-links{
     opacity: 1;
@@ -221,5 +221,14 @@
         margin-left: 3px !important;
         text-align: center;
         margin-right: 3px !important;
+    }
+}
+@media screen and (min-height:1000px) and (min-width:1500px) {
+    .each-image{
+        width: auto;
+        margin-left: 10% !important;
+    }
+    .eachImage{
+        width: auto;
     }
 }

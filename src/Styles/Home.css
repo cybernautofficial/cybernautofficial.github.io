@@ -258,6 +258,11 @@ input[type=radio]{
     border-radius: 20px;
     background: white;
 }
+@media screen and (min-width:1570px) {
+    .jC{
+        padding-top: 1vh;
+    }
+}
 @media screen and (max-width:1026px) {
     .announcement-logo{
         padding: 0px;

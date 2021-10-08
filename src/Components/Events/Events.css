@@ -53,3 +53,8 @@
     text-align: center;
     font-family: Montserrat;
 }
+@media screen and (min-width:1024px) {
+    .events-div{
+        font-size: 1vw;
+    }
+}

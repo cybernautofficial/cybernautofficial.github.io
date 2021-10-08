@@ -17,9 +17,10 @@ function Persons(){
                               <div className="mx-3 each-image">
                                   <img className="eachImage" src={image}/>
                                   <div className="social-links">
-                                      <div className="each-social-link mx-2"><img className="social-link-image" src={require('../../images/facebook_black.png').default}/></div>
-                                      <div className="each-social-link mx-2"><img className="social-link-image" src={require('../../images/twitter_black.png').default}/></div>
-                                      <div className="each-social-link mx-2"><img className="social-link-image" src={require('../../images/linkedIn_black.png').default}/></div>
+                                      <div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/facebook_black.png').default}/></div>
+                                      <div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/twitter_black.png').default}/></div>
+                                      <div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/linkedIn_black.png').default}/></div>
+                                      <div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/instagram_black.png').default}/></div>
                                   </div>
                               </div>
                               <div className="each-down">
