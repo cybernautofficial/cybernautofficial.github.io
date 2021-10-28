@@ -72,15 +72,15 @@ function AboutUs(){
                 </div>
                 <div className="row vis-and-mis mx-5 mb-4">
                     <div className="col-12 col-md-6 col-lg-6 mt-4"><div className="vission  px-4 py-3"><div id="vis-heading">Vision</div>
-                       <p style={{'margin-bottom':'1vh'}}>We give skilled people, an opportunity to practically implement their skills in the field You 
+                       <p style={{'margin-bottom':'1vh'}}>We give skilled people, an opportunity to practically implement their skills in the field. You 
                            can also be a fresher with basic knowledge and we are here to help and guide you to develop 
-                           your skillnet Service is our main aim, we also have other domains such as content writing, 
+                           your skillset. Service is our main aim, we also have other domains such as content writing, 
                            graphic design, etc.</p>
                         <p className="keypoints">Our Keypoints of foucus are:</p>
                         <ul>
-                            <li>To approach government schools and to aid the students with career advice</li>
-                            <li>To encourage the students to pic- the right path on the technical side.</li>
-                            <li>To improve the student's personality on the non-technical side</li>
+                            <li>To approach government schools and to aid the students with career advice.</li>
+                            <li>To encourage the students to pick the right path on the technical side.</li>
+                            <li>To improve the student's personality on the non-technical side.</li>
                         </ul>
                         </div>
                     </div>

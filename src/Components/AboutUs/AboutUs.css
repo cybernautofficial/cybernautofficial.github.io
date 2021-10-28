@@ -169,14 +169,14 @@
 }
 .social-link-image{
     height: auto;
-    width: 2vw;
+    width: 2.1vw;
     padding: 2px;
     cursor: pointer;
 }
 .social-links{
     position: absolute;
     bottom: 10px;
-    left: 22%;
+    left:31%;
     opacity: 0;
     transition: .4s ease-out;
 }
@@ -197,10 +197,14 @@
     .persons-name{
         font-size: 1rem;
     }
+    
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:765px) {
     .each-image{
         height: auto;
+    }
+    .social-link-image{
+        width: 6vw;
     }
     
 }

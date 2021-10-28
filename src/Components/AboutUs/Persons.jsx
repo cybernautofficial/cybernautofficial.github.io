@@ -17,10 +17,11 @@ function Persons(){
                               <div className="mx-3 each-image">
                                   <img className="eachImage" src={image}/>
                                   <div className="social-links">
-                                      <div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/facebook_black.png').default}/></div>
-                                      <div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/twitter_black.png').default}/></div>
-                                      <div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/linkedIn_black.png').default}/></div>
-                                      <div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/instagram_black.png').default}/></div>
+                                      <a href={item.instagram} target="_blank"><div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/instagram_black.png').default}/></div></a>
+                                      {/*<div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/facebook_black.png').default}/></div>*/}
+                                      <a href={item.twitter} target="_blank"><div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/twitter_black.png').default}/></div></a>
+                                      <a href={item.linkedIn} target="_blank"><div className="each-social-link mx-1"><img className="social-link-image" src={require('../../images/linkedIn_black.png').default}/></div></a>
+                                      
                                   </div>
                               </div>
                               <div className="each-down">
